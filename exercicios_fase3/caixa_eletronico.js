@@ -14,7 +14,7 @@ for (let i = 1; i <= 3; i ++) {
         console.log("Valor inválido para operação!");
     } else if (saque > saldo ) {
         console.log(`Valor acima do permitido! Você possuí R$${saldo}!`)
-    } else if (saque <= saldo) {
+    } else {
         totalSaques ++;
         saldo -= saque;
         console.log(`Saque realizado com sucesso! Saldo atual R$${saldo}!`)
